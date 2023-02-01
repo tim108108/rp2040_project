@@ -8,11 +8,14 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/CMakeLists.txt"
+  "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/pico_pre_load_toolchain.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/pico_utils.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/preload/platforms/pico/pico.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake"
+  "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/preload/toolchains/find_compiler.cmake"
+  "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/docs/CMakeLists.txt"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/family_support.cmake"
   "/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/boards/pico_sdk/board.cmake"
@@ -129,11 +132,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/FindPython/Support.cmake"
   "/usr/share/cmake-3.16/Modules/FindPython3.cmake"
   "/usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:

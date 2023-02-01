@@ -214,14 +214,14 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-main.o: main.c.o
+main.obj: main.c.obj
 
-.PHONY : main.o
+.PHONY : main.obj
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.o
-.PHONY : main.c.o
+main.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.obj
+.PHONY : main.c.obj
 
 main.i: main.c.i
 
@@ -241,14 +241,14 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.s
 .PHONY : main.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
@@ -268,14 +268,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_devic
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
@@ -295,14 +295,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
@@ -322,14 +322,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
@@ -349,14 +349,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
@@ -376,14 +376,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
@@ -403,14 +403,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
@@ -430,14 +430,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
@@ -457,14 +457,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_dev
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
@@ -484,14 +484,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
@@ -511,14 +511,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_dev
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
@@ -538,14 +538,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_dev
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
@@ -565,14 +565,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_devic
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
@@ -592,14 +592,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
@@ -619,14 +619,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
@@ -646,14 +646,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
@@ -673,14 +673,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
@@ -700,14 +700,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
@@ -727,14 +727,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
@@ -754,14 +754,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
@@ -781,14 +781,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
@@ -808,14 +808,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
@@ -835,14 +835,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 
@@ -862,14 +862,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
@@ -889,14 +889,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
@@ -916,14 +916,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
@@ -943,14 +943,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
@@ -970,14 +970,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
@@ -997,14 +997,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
@@ -1024,23 +1024,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
@@ -1060,14 +1060,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
@@ -1087,14 +1087,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
@@ -1114,23 +1114,50 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
@@ -1150,14 +1177,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
@@ -1177,14 +1204,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
@@ -1204,14 +1231,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
@@ -1231,14 +1258,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
@@ -1258,14 +1285,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
@@ -1285,14 +1312,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchd
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
@@ -1312,23 +1339,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
@@ -1348,32 +1375,32 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
@@ -1393,14 +1420,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
@@ -1420,23 +1447,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
@@ -1456,23 +1483,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_devi
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
@@ -1492,14 +1519,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_ro
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
@@ -1519,32 +1546,32 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
@@ -1564,23 +1591,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
@@ -1600,14 +1627,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
@@ -1627,14 +1654,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
@@ -1654,14 +1681,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
@@ -1681,23 +1708,23 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binar
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o
-
-# target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
@@ -1717,14 +1744,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_d
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
@@ -1744,14 +1771,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
@@ -1771,14 +1798,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_int
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
@@ -1798,14 +1825,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
@@ -1825,14 +1852,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
@@ -1852,14 +1879,14 @@ mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
@@ -1895,189 +1922,192 @@ help:
 	@echo "... PioasmBuild"
 	@echo "... cyw43_firmware_package"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... main.o"
+	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 .PHONY : help

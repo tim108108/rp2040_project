@@ -23,9 +23,12 @@ add_executable(${PROJECT_NAME}
 # Create map/bin/hex/uf2 files
 pico_add_extra_outputs(${PROJECT_NAME})
 
+# generate the header file into the source tree as it is included in the RP2040 datasheet
+# pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
+
 # Link to pico_stdlib (gpio, time, etc. functions)
 target_link_libraries(${PROJECT_NAME} 
-    pico_stdlib
+    pico_stdlib hardware_pio 
 )
 
 # Enable usb output, disable uart output
