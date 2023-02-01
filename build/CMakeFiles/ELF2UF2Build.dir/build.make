@@ -76,7 +76,7 @@ elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-st
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
-	/usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/elf2uf2
+	/usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/elf2uf2
 	/usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2
 	/usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2
 	/usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2/tmp
@@ -104,7 +104,7 @@ elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/elf2uf2
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/elf2uf2
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure

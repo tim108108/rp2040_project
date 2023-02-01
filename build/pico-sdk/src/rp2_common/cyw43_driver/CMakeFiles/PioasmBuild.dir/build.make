@@ -76,7 +76,7 @@ pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-in
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'PioasmBuild'"
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver && /usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/pioasm
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver && /usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/pioasm
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver && /usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver && /usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver && /usr/bin/cmake -E make_directory /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp
@@ -104,7 +104,7 @@ pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-co
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'PioasmBuild'"
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm && /usr/bin/cmake "-GUnix Makefiles" -C/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/pioasm
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm && /usr/bin/cmake "-GUnix Makefiles" -C/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/pioasm
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm && /usr/bin/cmake -E touch /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
@@ -134,6 +134,6 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/dongye/Desktop/pico/rp2040_test /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/dongye/Desktop/pico/rp2040_test /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

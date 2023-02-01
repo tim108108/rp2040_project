@@ -214,14 +214,14 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-main.obj: main.c.obj
+main.o: main.c.o
 
-.PHONY : main.obj
+.PHONY : main.o
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.obj
-.PHONY : main.c.obj
+main.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.o
+.PHONY : main.c.o
 
 main.i: main.c.i
 
@@ -241,1643 +241,1643 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.s
 .PHONY : main.c.s
 
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
-
-# target to build an object file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-pico-sdk/lib/tinyusb/src/class/video/video_device.obj: pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
-pico-sdk/lib/tinyusb/src/class/video/video_device.i: pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-pico-sdk/lib/tinyusb/src/class/video/video_device.s: pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-pico-sdk/lib/tinyusb/src/device/usbd.obj: pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
-pico-sdk/lib/tinyusb/src/device/usbd.i: pico-sdk/lib/tinyusb/src/device/usbd.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-pico-sdk/lib/tinyusb/src/device/usbd.s: pico-sdk/lib/tinyusb/src/device/usbd.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-pico-sdk/lib/tinyusb/src/device/usbd_control.obj: pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
-pico-sdk/lib/tinyusb/src/device/usbd_control.i: pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-pico-sdk/lib/tinyusb/src/device/usbd_control.s: pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-pico-sdk/lib/tinyusb/src/tusb.obj: pico-sdk/lib/tinyusb/src/tusb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
 
 # target to build an object file
-pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
-pico-sdk/lib/tinyusb/src/tusb.i: pico-sdk/lib/tinyusb/src/tusb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-pico-sdk/lib/tinyusb/src/tusb.s: pico-sdk/lib/tinyusb/src/tusb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : pico-sdk/lib/tinyusb/src/tusb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-pico-sdk/src/common/pico_sync/critical_section.obj: pico-sdk/src/common/pico_sync/critical_section.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o
 
 # target to build an object file
-pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 
-pico-sdk/src/common/pico_sync/critical_section.i: pico-sdk/src/common/pico_sync/critical_section.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-pico-sdk/src/common/pico_sync/critical_section.s: pico-sdk/src/common/pico_sync/critical_section.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : pico-sdk/src/common/pico_sync/critical_section.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-pico-sdk/src/common/pico_sync/lock_core.obj: pico-sdk/src/common/pico_sync/lock_core.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o
 
 # target to build an object file
-pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
-pico-sdk/src/common/pico_sync/lock_core.i: pico-sdk/src/common/pico_sync/lock_core.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-pico-sdk/src/common/pico_sync/lock_core.s: pico-sdk/src/common/pico_sync/lock_core.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : pico-sdk/src/common/pico_sync/lock_core.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-pico-sdk/src/common/pico_sync/mutex.obj: pico-sdk/src/common/pico_sync/mutex.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
-.PHONY : pico-sdk/src/common/pico_sync/mutex.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o
 
 # target to build an object file
-pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
-pico-sdk/src/common/pico_sync/mutex.i: pico-sdk/src/common/pico_sync/mutex.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-.PHONY : pico-sdk/src/common/pico_sync/mutex.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-pico-sdk/src/common/pico_sync/mutex.s: pico-sdk/src/common/pico_sync/mutex.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-.PHONY : pico-sdk/src/common/pico_sync/mutex.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : pico-sdk/src/common/pico_sync/mutex.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-pico-sdk/src/common/pico_sync/sem.obj: pico-sdk/src/common/pico_sync/sem.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
-.PHONY : pico-sdk/src/common/pico_sync/sem.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o
 
 # target to build an object file
-pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
-pico-sdk/src/common/pico_sync/sem.i: pico-sdk/src/common/pico_sync/sem.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-.PHONY : pico-sdk/src/common/pico_sync/sem.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-pico-sdk/src/common/pico_sync/sem.s: pico-sdk/src/common/pico_sync/sem.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-.PHONY : pico-sdk/src/common/pico_sync/sem.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : pico-sdk/src/common/pico_sync/sem.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-pico-sdk/src/common/pico_time/time.obj: pico-sdk/src/common/pico_time/time.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
-.PHONY : pico-sdk/src/common/pico_time/time.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o
 
 # target to build an object file
-pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : pico-sdk/src/common/pico_time/time.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
-pico-sdk/src/common/pico_time/time.i: pico-sdk/src/common/pico_time/time.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-.PHONY : pico-sdk/src/common/pico_time/time.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : pico-sdk/src/common/pico_time/time.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-pico-sdk/src/common/pico_time/time.s: pico-sdk/src/common/pico_time/time.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-.PHONY : pico-sdk/src/common/pico_time/time.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : pico-sdk/src/common/pico_time/time.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-pico-sdk/src/common/pico_time/timeout_helper.obj: pico-sdk/src/common/pico_time/timeout_helper.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
 
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o
 
 # target to build an object file
-pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
 
-pico-sdk/src/common/pico_time/timeout_helper.i: pico-sdk/src/common/pico_time/timeout_helper.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 
-pico-sdk/src/common/pico_time/timeout_helper.s: pico-sdk/src/common/pico_time/timeout_helper.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : pico-sdk/src/common/pico_time/timeout_helper.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 
-pico-sdk/src/common/pico_util/datetime.obj: pico-sdk/src/common/pico_util/datetime.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
-.PHONY : pico-sdk/src/common/pico_util/datetime.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o
 
 # target to build an object file
-pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
-pico-sdk/src/common/pico_util/datetime.i: pico-sdk/src/common/pico_util/datetime.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-.PHONY : pico-sdk/src/common/pico_util/datetime.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-pico-sdk/src/common/pico_util/datetime.s: pico-sdk/src/common/pico_util/datetime.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-.PHONY : pico-sdk/src/common/pico_util/datetime.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : pico-sdk/src/common/pico_util/datetime.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-pico-sdk/src/common/pico_util/pheap.obj: pico-sdk/src/common/pico_util/pheap.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
-.PHONY : pico-sdk/src/common/pico_util/pheap.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o
 
 # target to build an object file
-pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
-pico-sdk/src/common/pico_util/pheap.i: pico-sdk/src/common/pico_util/pheap.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-.PHONY : pico-sdk/src/common/pico_util/pheap.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-pico-sdk/src/common/pico_util/pheap.s: pico-sdk/src/common/pico_util/pheap.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-.PHONY : pico-sdk/src/common/pico_util/pheap.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : pico-sdk/src/common/pico_util/pheap.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-pico-sdk/src/common/pico_util/queue.obj: pico-sdk/src/common/pico_util/queue.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
-.PHONY : pico-sdk/src/common/pico_util/queue.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o
 
 # target to build an object file
-pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : pico-sdk/src/common/pico_util/queue.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
-pico-sdk/src/common/pico_util/queue.i: pico-sdk/src/common/pico_util/queue.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-.PHONY : pico-sdk/src/common/pico_util/queue.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : pico-sdk/src/common/pico_util/queue.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-pico-sdk/src/common/pico_util/queue.s: pico-sdk/src/common/pico_util/queue.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-.PHONY : pico-sdk/src/common/pico_util/queue.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : pico-sdk/src/common/pico_util/queue.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-pico-sdk/src/rp2_common/hardware_claim/claim.obj: pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
 
-pico-sdk/src/rp2_common/hardware_claim/claim.i: pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-pico-sdk/src/rp2_common/hardware_claim/claim.s: pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
 
-pico-sdk/src/rp2_common/hardware_clocks/clocks.i: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-pico-sdk/src/rp2_common/hardware_clocks/clocks.s: pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-pico-sdk/src/rp2_common/hardware_divider/divider.obj: pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_divider/divider.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-
-pico-sdk/src/rp2_common/hardware_flash/flash.obj: pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
-pico-sdk/src/rp2_common/hardware_flash/flash.i: pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-pico-sdk/src/rp2_common/hardware_flash/flash.s: pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
-pico-sdk/src/rp2_common/hardware_gpio/gpio.i: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-pico-sdk/src/rp2_common/hardware_gpio/gpio.s: pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-pico-sdk/src/rp2_common/hardware_irq/irq.obj: pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
-pico-sdk/src/rp2_common/hardware_irq/irq.i: pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-pico-sdk/src/rp2_common/hardware_irq/irq.s: pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-pico-sdk/src/rp2_common/hardware_pll/pll.obj: pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
-pico-sdk/src/rp2_common/hardware_pll/pll.i: pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-pico-sdk/src/rp2_common/hardware_pll/pll.s: pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-pico-sdk/src/rp2_common/hardware_sync/sync.obj: pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
-pico-sdk/src/rp2_common/hardware_sync/sync.i: pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-pico-sdk/src/rp2_common/hardware_sync/sync.s: pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-pico-sdk/src/rp2_common/hardware_timer/timer.obj: pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
-pico-sdk/src/rp2_common/hardware_timer/timer.i: pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-pico-sdk/src/rp2_common/hardware_timer/timer.s: pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-pico-sdk/src/rp2_common/hardware_uart/uart.obj: pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
-pico-sdk/src/rp2_common/hardware_uart/uart.i: pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-pico-sdk/src/rp2_common/hardware_uart/uart.s: pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
-pico-sdk/src/rp2_common/hardware_vreg/vreg.i: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-pico-sdk/src/rp2_common/hardware_vreg/vreg.s: pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
-pico-sdk/src/rp2_common/hardware_xosc/xosc.i: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-pico-sdk/src/rp2_common/hardware_xosc/xosc.s: pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-pico-sdk/src/rp2_common/pico_divider/divider.obj: pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_divider/divider.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-
-pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
-pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
-pico-sdk/src/rp2_common/pico_double/double_init_rom.i: pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-pico-sdk/src/rp2_common/pico_double/double_init_rom.s: pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-pico-sdk/src/rp2_common/pico_double/double_math.obj: pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
 
-pico-sdk/src/rp2_common/pico_double/double_math.i: pico-sdk/src/rp2_common/pico_double/double_math.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-pico-sdk/src/rp2_common/pico_double/double_math.s: pico-sdk/src/rp2_common/pico_double/double_math.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_math.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-
-pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
 
-pico-sdk/src/rp2_common/pico_float/float_init_rom.i: pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
-pico-sdk/src/rp2_common/pico_float/float_init_rom.s: pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-pico-sdk/src/rp2_common/pico_float/float_math.obj: pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
 
-pico-sdk/src/rp2_common/pico_float/float_math.i: pico-sdk/src/rp2_common/pico_float/float_math.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-pico-sdk/src/rp2_common/pico_float/float_math.s: pico-sdk/src/rp2_common/pico_float/float_math.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_math.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-
-pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-
-pico-sdk/src/rp2_common/pico_platform/platform.obj: pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
 
-pico-sdk/src/rp2_common/pico_platform/platform.i: pico-sdk/src/rp2_common/pico_platform/platform.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-pico-sdk/src/rp2_common/pico_platform/platform.s: pico-sdk/src/rp2_common/pico_platform/platform.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_platform/platform.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-pico-sdk/src/rp2_common/pico_printf/printf.obj: pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
-pico-sdk/src/rp2_common/pico_printf/printf.i: pico-sdk/src/rp2_common/pico_printf/printf.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-pico-sdk/src/rp2_common/pico_printf/printf.s: pico-sdk/src/rp2_common/pico_printf/printf.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-pico-sdk/src/rp2_common/pico_runtime/runtime.obj: pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
-pico-sdk/src/rp2_common/pico_runtime/runtime.i: pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-pico-sdk/src/rp2_common/pico_runtime/runtime.s: pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
 
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-pico-sdk/src/rp2_common/pico_stdio/stdio.obj: pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
 
-pico-sdk/src/rp2_common/pico_stdio/stdio.i: pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-pico-sdk/src/rp2_common/pico_stdio/stdio.s: pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
 
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
 
 # target to build an object file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+
+# target to build an object file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 # Help Target
 help:
@@ -1895,191 +1895,191 @@ help:
 	@echo "... PioasmBuild"
 	@echo "... cyw43_firmware_package"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... main.obj"
+	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.i"
-	@echo "... pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.obj"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... pico-sdk/src/common/pico_time/time.obj"
-	@echo "... pico-sdk/src/common/pico_time/time.i"
-	@echo "... pico-sdk/src/common/pico_time/time.s"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... pico-sdk/src/common/pico_util/queue.i"
-	@echo "... pico-sdk/src/common/pico_util/queue.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 # Set minimum required version of CMake
 cmake_minimum_required(VERSION 3.12)
-set(PICO_SDK_PATH ../pico-sdk)
+set(PICO_SDK_PATH ../../pico-sdk)
 # set(PICO_SDK_FETCH_FROM_GIT on)
 
 # Include build functions from Pico SDK

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/boot_uf2/include 
+CXX_INCLUDES = -I/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/boot_uf2/include 
 

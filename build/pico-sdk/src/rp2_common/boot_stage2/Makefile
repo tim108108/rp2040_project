@@ -155,14 +155,14 @@ bs2_default/fast:
 	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
 
-compile_time_choice.obj: compile_time_choice.S.obj
+compile_time_choice.o: compile_time_choice.S.o
 
-.PHONY : compile_time_choice.obj
+.PHONY : compile_time_choice.o
 
 # target to build an object file
-compile_time_choice.S.obj:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
-.PHONY : compile_time_choice.S.obj
+compile_time_choice.S.o:
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
+.PHONY : compile_time_choice.S.o
 
 # Help Target
 help:
@@ -175,7 +175,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... bs2_default"
 	@echo "... rebuild_cache"
-	@echo "... compile_time_choice.obj"
+	@echo "... compile_time_choice.o"
 .PHONY : help
 
 

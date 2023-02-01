@@ -213,7 +213,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 elf2uf2_BINARY_DIR:STATIC=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/elf2uf2
 
 //Value Computed by CMake
-elf2uf2_SOURCE_DIR:STATIC=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/elf2uf2
+elf2uf2_SOURCE_DIR:STATIC=/mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/elf2uf2
 
 
 ########################
@@ -300,7 +300,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/tools/elf2uf2
+CMAKE_HOME_DIRECTORY:INTERNAL=/mnt/c/Users/dongye/Desktop/pico/pico-sdk/tools/elf2uf2
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

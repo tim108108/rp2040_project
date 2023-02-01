@@ -58,7 +58,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/objcopy -Obinary /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -76,6 +76,6 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/dongye/Desktop/pico/rp2040_test /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/dongye/Desktop/pico/rp2040_test /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

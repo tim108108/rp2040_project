@@ -57,972 +57,972 @@ include CMakeFiles/blink.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/blink.dir/flags.make
 
-CMakeFiles/blink.dir/main.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/main.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c
+CMakeFiles/blink.dir/main.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/main.c.o   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c
 
 CMakeFiles/blink.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c > CMakeFiles/blink.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c > CMakeFiles/blink.dir/main.c.i
 
 CMakeFiles/blink.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c -o CMakeFiles/blink.dir/main.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: ../pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: ../pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: ../pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: ../pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: ../pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: ../pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj: ../pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/sem.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: ../pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/lock_core.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj: ../pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/time.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/time.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: ../pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/timeout_helper.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: ../pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj: ../pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/datetime.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj: ../pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/pheap.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj: ../pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/queue.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: ../pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/mutex.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: ../pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/critical_section.c
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: ../pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: ../pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: ../pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: ../pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: ../pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: ../pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: ../pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: ../pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: ../pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: ../pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: ../pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: ../pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: ../pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: ../pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: ../pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: ../pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: ../pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: ../pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: ../pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: ../pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: ../pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: ../pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: ../pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: ../pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj: ../pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/tusb.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: ../pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: ../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: ../pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: ../pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/rp2040_test/main.c -o CMakeFiles/blink.dir/main.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o   -c /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 # Object files for target blink
 blink_OBJECTS = \
-"CMakeFiles/blink.dir/main.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+"CMakeFiles/blink.dir/main.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 
 # External object files for target blink
 blink_EXTERNAL_OBJECTS =
 
-blink.elf: CMakeFiles/blink.dir/main.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/time.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/datetime.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_util/queue.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-blink.elf: CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-blink.elf: CMakeFiles/blink.dir/build.make
-blink.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
-blink.elf: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable blink.elf"
+blink: CMakeFiles/blink.dir/main.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/time.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+blink: CMakeFiles/blink.dir/mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+blink: CMakeFiles/blink.dir/build.make
+blink: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+blink: CMakeFiles/blink.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable blink"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink.elf blink.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink.elf blink.bin
-	/usr/bin/arm-none-eabi-objdump -h /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink.elf >blink.dis
-	/usr/bin/arm-none-eabi-objdump -d /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink.elf >>blink.dis
-	elf2uf2/elf2uf2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink.elf blink.uf2
+	/usr/bin/objcopy -Oihex /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink blink.hex
+	/usr/bin/objcopy -Obinary /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink blink.bin
+	/usr/bin/objdump -h /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink >blink.dis
+	/usr/bin/objdump -d /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink >>blink.dis
+	elf2uf2/elf2uf2 /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/blink blink.uf2
 
 # Rule to build all files generated by this target.
-CMakeFiles/blink.dir/build: blink.elf
+CMakeFiles/blink.dir/build: blink
 
 .PHONY : CMakeFiles/blink.dir/build
 
