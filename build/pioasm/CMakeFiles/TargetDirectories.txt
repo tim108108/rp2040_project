@@ -1,0 +1,3 @@
+/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm/CMakeFiles/edit_cache.dir
+/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pioasm/CMakeFiles/pioasm.dir
