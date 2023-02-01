@@ -1,5 +1,5 @@
 # Raspberry Pi Pico SDK
-
+Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero)  
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
 necessary to write programs for the RP2040-based devices such as the Raspberry Pi Pico
 in C, C++ or assembly language.
@@ -15,6 +15,7 @@ The SDK can be used to build anything from simple applications, to fully fledged
 such as RP2040's on-chip bootrom itself.
 
 Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/raspberrypi/pico-extras).
+
 
 # Documentation
 
