@@ -1166,9 +1166,9 @@ Discarded input sections
                 0x0000000000000000       0x80 CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x0000000000000000       0x80 CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccOzEIJG.o
- .data          0x0000000000000000        0x0 /tmp/ccOzEIJG.o
- .bss           0x0000000000000000        0x0 /tmp/ccOzEIJG.o
+ .text          0x0000000000000000        0x0 /tmp/cchTlMmy.o
+ .data          0x0000000000000000        0x0 /tmp/cchTlMmy.o
+ .bss           0x0000000000000000        0x0 /tmp/cchTlMmy.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1432,7 +1432,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccOzEIJG.o
+ .boot2         0x0000000010000000      0x100 /tmp/cchTlMmy.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2404,7 +2404,7 @@ LOAD CMakeFiles/blink.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/blink.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccOzEIJG.o
+LOAD /tmp/cchTlMmy.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2518,7 +2518,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000077c       0x2c CMakeFiles/blink.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x00000000000007a8       0x22 /tmp/ccOzEIJG.o
+                0x00000000000007a8       0x22 /tmp/cchTlMmy.o
  .ARM.attributes
                 0x00000000000007ca       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
