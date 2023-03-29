@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/dongye/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops
+# Install script for directory: /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/pico-sdk/src/rp2_common/pico_int64_ops
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

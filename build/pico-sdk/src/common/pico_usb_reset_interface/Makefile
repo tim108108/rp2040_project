@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/dongye/Desktop/pico/rp2040_test
+CMAKE_SOURCE_DIR = /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build
+CMAKE_BINARY_DIR = /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,16 +67,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/common/pico_usb_reset_interface/CMakeFiles/progress.marks
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/CMakeFiles 0
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/CMakeFiles /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/pico-sdk/src/common/pico_usb_reset_interface/CMakeFiles/progress.marks
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/clean
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/preinstall
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/preinstall
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_usb_reset_interface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -116,8 +116,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 .PHONY : help
 
 
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/dongye/Desktop/pico/rp2040_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

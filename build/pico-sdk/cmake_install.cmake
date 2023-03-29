@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/dongye/Desktop/pico/pico-sdk
+# Install script for directory: /mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/tools/cmake_install.cmake")
-  include("/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/src/cmake_install.cmake")
-  include("/mnt/c/Users/dongye/Desktop/pico/rp2040_test/build/pico-sdk/docs/cmake_install.cmake")
+  include("/mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/pico-sdk/tools/cmake_install.cmake")
+  include("/mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/pico-sdk/src/cmake_install.cmake")
+  include("/mnt/c/Users/tim10/OneDrive/桌面/rp2040_test/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 
