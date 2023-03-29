@@ -1,6 +1,17 @@
 # rp2040_project
 
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
+建立toolchain
+```bash
+mkdir build
+cd build
+cmake ..
+```
+當要編譯時在build下執行
+```bash
+build/make
+```
+note : pico-sdk與FRTOS-Kernel位置固定在最上層
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
