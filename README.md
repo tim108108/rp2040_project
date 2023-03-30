@@ -1,8 +1,9 @@
 # rp2040_project
 
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
-git clone後要記得update&init submodule  
+## Let's start !!  
 ```
+git clone https://github.com/tim108108/rp2040_project.git
 git submodule update --init 
 ```
 建立toolchain
