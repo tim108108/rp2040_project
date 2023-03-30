@@ -6,7 +6,7 @@ Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040
 git clone https://github.com/tim108108/rp2040_project.git
 git submodule update --init 
 ```
-建立toolchain~pico-sdk與FRTOS-Kernel位置固定在目錄最上層~  
+建立toolchain，pico-sdk與FRTOS-Kernel位置固定在目錄最上層  
 ```bash
 mkdir build
 cd build
@@ -16,8 +16,7 @@ cmake ..
 ```bash
 rp2040_project/build/make -j
 ```
-接著把
-`rp2040_project.uf2`
+接著把build目錄下的`rp2040_project.uf2`燒錄到rp2040
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system

@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
-// #include "ws2812.pio.h"
 #define ws2812_wrap_target 0
 #define ws2812_wrap 3
-
 #define ws2812_T1 2
 #define ws2812_T2 5
 #define ws2812_T3 3
@@ -59,8 +56,7 @@ void put_rgb(uint8_t red, uint8_t green, uint8_t blue)
     put_pixel(mask);
 }
 
-int main()
-{
+void RP2040_zero_test_code(){
     //set_sys_clock_48();
     stdio_init_all();
 
@@ -91,4 +87,9 @@ int main()
             sleep_ms(3);
         }
     }
+}
+
+int main()
+{
+    RP2040_zero_test_code();
 }
