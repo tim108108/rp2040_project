@@ -1,7 +1,5 @@
 #include "test.h"
 
-
-
 static inline pio_sm_config ws2812_program_get_default_config(uint offset) {
     pio_sm_config c = pio_get_default_sm_config();
     sm_config_set_wrap(&c, offset + ws2812_wrap_target, offset + ws2812_wrap);
