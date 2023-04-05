@@ -1,6 +1,11 @@
 # rp2040_project
-
+[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)  
+[FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
+- [ ] freertos 
+- [ ] multithread
+- [ ] arm assembly
+- [ ] dual core
 ## Let's start !!  
 ```
 git clone https://github.com/tim108108/rp2040_project.git
