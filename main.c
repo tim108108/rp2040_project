@@ -15,4 +15,5 @@ int main()
     stdio_init_all();
     xTaskCreate(RGB_task,"rgb_task",256,NULL,1,NULL);
     vTaskStartScheduler();
+    printf("hello");
 }
