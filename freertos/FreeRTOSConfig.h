@@ -79,6 +79,11 @@
 #define INCLUDE_xTaskGetHandle                  0
 #define INCLUDE_xTaskResumeFromISR              1
 
+/* SMP port only */
+#define configNUM_CORES                         2
+#define configTICK_CORE                         0
+#define configRUN_MULTIPLE_PRIORITIES           0
+
 /* A header file that defines trace macro can be included here. */
 
 #endif /* FREERTOS_CONFIG_H */
