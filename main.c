@@ -13,7 +13,10 @@ void RGB_task(){
 int main()
 {
     stdio_init_all();
-    xTaskCreate(RGB_task,"rgb_task",256,NULL,1,NULL);
-    vTaskStartScheduler();
-    printf("hello");
+    while(1){
+        printf("hi\n");
+    }
+    // xTaskCreate(RGB_task,"rgb_task",256,NULL,1,NULL);
+    // vTaskStartScheduler();
+    // printf("hello");
 }
