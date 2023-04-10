@@ -27,7 +27,7 @@ cmake ..
 rp2040_project/build/make -j
 ```
 接著把build目錄下的`rp2040_project.uf2`燒錄到rp2040
-## GPIO examlpe
+## GPIO example
 ```c
 #include <stdio.h>
 #include "pico/stdlib.h"
