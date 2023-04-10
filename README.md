@@ -1,6 +1,7 @@
 # rp2040_project
 [MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)  
 [FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
+[Pico C SDK](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -26,6 +27,35 @@ cmake ..
 rp2040_project/build/make -j
 ```
 接著把build目錄下的`rp2040_project.uf2`燒錄到rp2040
+## GPIO examlpe
+```c
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
+
+int main() {
+    stdio_init_all();
+    printf("gpio test");
+    int led=29;        //設定led為GPIO29
+    int bot=28;        //設定bot為GPIO28
+    gpio_init(bot);    //初始化bot
+    gpio_init(led);    //初始化led
+    gpio_set_dir(led,GPIO_OUT);   //設定led為輸出
+    gpio_set_dir(bot,GPIO_IN);    //設定bot為輸入
+    gpio_pull_up(bot);            //pull_up，預設high準位
+    while(1){
+        if(gpio_get(bot)==0){
+            gpio_put(led,1);
+            printf("gpio on\n");
+            sleep_ms(500);
+            gpio_put(led,false);
+            printf("gpio off\n");
+            sleep_ms(500);
+        }
+    }
+}
+```
+
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
