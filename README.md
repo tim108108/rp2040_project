@@ -1,7 +1,7 @@
 # rp2040_project
 [MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)  
 [FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
-[Pico C SDK](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html)  
+[Pico C/C++ SDK](https://www.waveshare.net/w/upload/5/5f/Pico_c_sdk.pdf)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -33,11 +33,12 @@ rp2040_project/build/make -j
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
+#define led=29;        //設定led為GPIO29
+#define bot=28;        //設定bot為GPIO28
+
 int main() {
     stdio_init_all();
     printf("gpio test");
-    int led=29;        //設定led為GPIO29
-    int bot=28;        //設定bot為GPIO28
     gpio_init(bot);    //初始化bot
     gpio_init(led);    //初始化led
     gpio_set_dir(led,GPIO_OUT);   //設定led為輸出
@@ -52,6 +53,32 @@ int main() {
             printf("gpio off\n");
             sleep_ms(500);
         }
+    }
+}
+```
+## ADC example
+```c
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
+#include "hardware/adc.h"
+
+#define ADC3 29 //set ADC in GPIO29 
+
+int main() {
+    stdio_init_all();
+    printf("ADC Example, measuring GPIO29\n");
+
+    adc_init();
+    adc_gpio_init(ADC3);    //初始化GPIO29為ADC
+    adc_select_input(3);    //選擇ADC3(GPIO29)
+
+    while (1) {
+        // 12-bit conversion, assume max value == ADC_VREF == 3.3 V
+        const float conversion_factor = 3.3f / (1 << 12);   //計算12bit解析度，ADC_VERF=3.3V，3.3/(2^12)
+        uint16_t result = adc_read();   
+        printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
+        sleep_ms(500);
     }
 }
 ```
