@@ -82,7 +82,48 @@ int main() {
     }
 }
 ```
+## i2c example 待驗正
+```c
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/i2c.h"
 
+#define I2C0_PORT i2c0
+#define I2C0_SDA_PIN 4
+#define I2C0_SCL_PIN 5
+
+#define I2C1_PORT i2c1
+#define I2C1_SDA_PIN 2
+#define I2C1_SCL_PIN 3
+
+#define DEVICE_ADDRESS 0x42
+
+int main() {
+    // 初始化I2C0
+    i2c_init(I2C0_PORT, 100 * 1000);
+    gpio_set_function(I2C0_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(I2C0_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C0_SDA_PIN);
+    gpio_pull_up(I2C0_SCL_PIN);
+
+    // 初始化I2C1
+    i2c_init(I2C1_PORT, 100 * 1000);
+    i2c_set_slave_mode(I2C1_PORT, true, DEVICE_ADDRESS);
+    gpio_set_function(I2C1_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(I2C1_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C1_SDA_PIN);
+    gpio_pull_up(I2C1_SCL_PIN);
+    while(1){
+    uint8_t tx_data[] = "Hello, I2C!";  // 要傳送的字串
+    uint8_t rx_data[sizeof(tx_data)];  // 要接收的字串
+    i2c_write_blocking(I2C0_PORT, DEVICE_ADDRESS, tx_data, sizeof(tx_data), false);  // 在I2C0上傳送字串
+    i2c_read_blocking(I2C1_PORT, DEVICE_ADDRESS, rx_data, sizeof(rx_data), false);  // 在I2C1上接收字串
+
+    printf("Received: %s\n", rx_data);  // 輸出接收到的字串
+    }
+    return 0;
+}
+```
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
