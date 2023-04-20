@@ -86,6 +86,7 @@ int main() {
 ```c
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "pico/binary_info.h"
 #include "hardware/i2c.h"
 
 #define I2C0_PORT i2c0
@@ -97,8 +98,12 @@ int main() {
 #define I2C1_SCL_PIN 3
 
 #define DEVICE_ADDRESS 0x42
-
+bool reserved_addr(uint8_t addr) {
+    return (addr & 0x78) == 0 || (addr & 0x78) == 0x78;
+}
 int main() {
+    stdio_init_all();
+    
     // 初始化I2C0
     i2c_init(I2C0_PORT, 100 * 1000);
     gpio_set_function(I2C0_SDA_PIN, GPIO_FUNC_I2C);
@@ -108,20 +113,37 @@ int main() {
 
     // 初始化I2C1
     i2c_init(I2C1_PORT, 100 * 1000);
-    i2c_set_slave_mode(I2C1_PORT, true, DEVICE_ADDRESS);
     gpio_set_function(I2C1_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(I2C1_SCL_PIN, GPIO_FUNC_I2C);
     gpio_pull_up(I2C1_SDA_PIN);
     gpio_pull_up(I2C1_SCL_PIN);
+    i2c_set_slave_mode(I2C1_PORT, true, DEVICE_ADDRESS);
     while(1){
-    uint8_t tx_data[] = "Hello, I2C!";  // 要傳送的字串
-    uint8_t rx_data[sizeof(tx_data)];  // 要接收的字串
-    i2c_write_blocking(I2C0_PORT, DEVICE_ADDRESS, tx_data, sizeof(tx_data), false);  // 在I2C0上傳送字串
-    i2c_read_blocking(I2C1_PORT, DEVICE_ADDRESS, rx_data, sizeof(rx_data), false);  // 在I2C1上接收字串
+        printf("i2c example\n");
+        printf("Scanning I2C bus...\n");
+        printf("\nI2C Bus Scan\n");
+        printf("   0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F\n");
+        for (int addr = 0; addr < (1 << 7); ++addr) {
+            if (addr % 16 == 0) {
+                printf("%02x ", addr);
+            }
+            int ret;
+            uint8_t rxdata;
+            if (reserved_addr(addr))
+                ret = PICO_ERROR_GENERIC;
+            else
+                ret = i2c_read_blocking(I2C0_PORT, addr, &rxdata, 1, false);
 
-    printf("Received: %s\n", rx_data);  // 輸出接收到的字串
+            printf(ret < 0 ? "." : "@");
+            printf(addr % 16 == 15 ? "\n" : "  ");
+        }
+        // uint8_t tx_data[] = "0xF0F0";  // 要傳送的字串
+        // uint8_t rx_data[sizeof(tx_data)];  // 要接收的字串
+        // i2c_write_blocking(I2C0_PORT, DEVICE_ADDRESS, tx_data, sizeof(tx_data), false);  // 在I2C0上傳送字串
+        // i2c_read_blocking(I2C1_PORT, DEVICE_ADDRESS, rx_data, sizeof(rx_data), false);  // 在I2C1上接收字串
+        // printf("Received: %x\n", rx_data);  // 輸出接收到的字串
+        sleep_ms(100);
     }
-    return 0;
 }
 ```
 
