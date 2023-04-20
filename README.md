@@ -82,7 +82,7 @@ int main() {
     }
 }
 ```
-## i2c example 待驗正
+## i2c example 待修正
 ```c
 #include <stdio.h>
 #include "pico/stdlib.h"
@@ -146,6 +146,10 @@ int main() {
     }
 }
 ```
+## hardware_flash
+
+## hardware_irq
+## hardware_watchdog
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
