@@ -2,6 +2,8 @@
 [MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)  
 [FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
 [Pico C/C++ SDK](https://www.waveshare.net/w/upload/5/5f/Pico_c_sdk.pdf)  
+[Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples)  
+[SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -146,7 +148,74 @@ int main() {
     }
 }
 ```
-## hardware_flash
+## hardware_flash 待修正
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "pico/stdlib.h"
+#include "hardware/flash.h"
+#include "hardware/sync.h"
+
+// We're going to erase and reprogram a region 256k from the start of flash.
+// Once done, we can access this at XIP_BASE + 256k.
+#define FLASH_TARGET_OFFSET (256*1024)
+
+const uint8_t *flash_target_contents = (const uint8_t *) (XIP_BASE + FLASH_TARGET_OFFSET);
+
+void print_buf(const uint8_t *buf, size_t len) {
+    for (size_t i = 0; i < len; ++i) {
+        printf("%02x", buf[i]);
+        if (i % 16 == 15)
+            printf("\n");
+        else
+            printf(" ");
+    }
+}
+
+int main() {
+    stdio_init_all();
+    while(1){
+        sleep_ms(500);
+        printf("FLASH_PAGE_SIZE:%d\n",FLASH_PAGE_SIZE);
+        printf("FLASH_TARGET_OFFSET:%d\n",FLASH_TARGET_OFFSET);
+        printf("FLASH_SECTOR_SIZE:%d\n",FLASH_SECTOR_SIZE);
+        uint8_t random_data[FLASH_PAGE_SIZE];
+        for (int i = 0; i < FLASH_PAGE_SIZE; ++i)
+            random_data[i] = rand() >> 16;
+
+        printf("Generated random data:\n");
+        print_buf(random_data, FLASH_PAGE_SIZE);
+        
+        sleep_ms(500);
+        uint32_t saved_interrupts = save_and_disable_interrupts();
+
+        // Note that a whole number of sectors must be erased at a time.
+        printf("\nErasing target region...\n");
+        flash_range_erase(FLASH_TARGET_OFFSET, FLASH_PAGE_SIZE);
+        
+        printf("Done. Read back target region:\n");
+        print_buf(flash_target_contents, FLASH_PAGE_SIZE);
+
+        printf("\nProgramming target region...\n");
+        flash_range_program(FLASH_TARGET_OFFSET, random_data, FLASH_PAGE_SIZE);
+        printf("Done. Read back target region:\n");
+        print_buf(flash_target_contents, FLASH_PAGE_SIZE);
+        printf("here\n");
+
+        bool mismatch = false;
+        for (int i = 0; i < FLASH_PAGE_SIZE; ++i) {
+            if (random_data[i] != flash_target_contents[i])
+                mismatch = true;
+        }
+        if (mismatch)
+            printf("Programming failed!\n");
+        else
+            printf("Programming successful!\n");
+        restore_interrupts(saved_interrupts);
+    }
+}
+```
 
 ## hardware_irq
 ## hardware_watchdog
