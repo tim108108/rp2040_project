@@ -1,9 +1,9 @@
 # rp2040_project
-[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)  
-[FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
+[MarkDown語法大全](https://hackmd.io/@mrcoding/ryZE7k8cN)，[FreeRTOS - 成大資工](https://wiki.csie.ncku.edu.tw/embedded/freertos)  
 [Pico C/C++ SDK](https://www.waveshare.net/w/upload/5/5f/Pico_c_sdk.pdf)  
 [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples)  
 [SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)  
+[Hardware APIs](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -216,7 +216,59 @@ int main() {
     }
 }
 ```
+## hardware_timer
 
+```c
+#include <stdio.h>
+#include "pico/stdlib.h"
+
+volatile bool timer_fired = false;
+
+int64_t alarm_callback(alarm_id_t id, void *user_data) {
+    printf("Timer %d fired!\n", (int) id);
+    timer_fired = true;
+    // 可以在這裡返回一個未來觸發的時間（以微秒為單位）
+    return 0;
+}
+
+bool repeating_timer_callback(struct repeating_timer *t) {
+    printf("Repeat at %lld\n", time_us_64());
+    return true;
+}
+
+int main() {
+    stdio_init_all();
+    printf("Hello Timer!\n");
+
+    // 在5秒後調用alarm_callback函數
+    add_alarm_in_ms(5000, alarm_callback, NULL, false);
+
+    // 等待alarm回調設置timer_fired標誌
+    while (!timer_fired) {
+        tight_loop_contents();
+    }
+
+    // 創建一個重複定時器，調用repeating_timer_callback函數
+    // 如果延遲時間 > 0，則是前一個回調結束和下一個回調開始之間的延遲時間
+    // 如果延遲時間為負（請參見下面的說明），則下一次回調將在上一次回調開始後的500毫秒之後
+    struct repeating_timer timer;
+    add_repeating_timer_ms(500, repeating_timer_callback, NULL, &timer);
+    sleep_ms(3000);
+    bool cancelled = cancel_repeating_timer(&timer);
+    printf("cancelled... %d\n", cancelled);
+    sleep_ms(2000);
+
+    // 延遲時間為負，這意味著我們將調用repeating_timer_callback函數，並在之後的500毫秒內再次調用它，
+    // 無論上一次回調執行花費了多長時間
+    add_repeating_timer_ms(-500, repeating_timer_callback, NULL, &timer);
+    sleep_ms(3000);
+    cancelled = cancel_repeating_timer(&timer);
+    printf("cancelled... %d\n", cancelled);
+    sleep_ms(2000);
+    printf("Done\n");
+    return 0;
+}
+```
 ## hardware_irq
 ## hardware_watchdog
 
