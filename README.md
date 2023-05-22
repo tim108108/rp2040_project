@@ -4,6 +4,7 @@
 [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples)  
 [SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)  
 [Hardware APIs](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html)  
+[RP2040(树莓派Pico)Examples](https://www.taterli.com/7504/)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -248,13 +249,14 @@ int main() {
         tight_loop_contents();
     }
 
-    // 創建一個重複定時器，調用repeating_timer_callback函數
-    // 如果延遲時間 > 0，則是前一個回調結束和下一個回調開始之間的延遲時間
-    // 如果延遲時間為負（請參見下面的說明），則下一次回調將在上一次回調開始後的500毫秒之後
+    // 參數1:定時時間 參數2:回調函數 參數3:攜帶數據 參數4:定時器結構體
+    // 參數1 > 0 則在回調函數執行結束後再開啟下一次定時,這樣每次間隔可能不一樣.
+    // 參數1 < 0 則在回調函數進入時就開啟下一次定時器,這樣可能任務還沒完成下一次定時又來了.
+    // 通過參數3可以多個定時器共享一個回調.
     struct repeating_timer timer;
     add_repeating_timer_ms(500, repeating_timer_callback, NULL, &timer);
     sleep_ms(3000);
-    bool cancelled = cancel_repeating_timer(&timer);
+    bool cancelled = cancel_repeating_timer(&timer);  //取消定時器
     printf("cancelled... %d\n", cancelled);
     sleep_ms(2000);
 
