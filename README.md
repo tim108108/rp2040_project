@@ -5,6 +5,7 @@
 [SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)  
 [Hardware APIs](https://www.raspberrypi.com/documentation/pico-sdk/hardware.html)  
 [RP2040(树莓派Pico)Examples](https://www.taterli.com/7504/)  
+[](https://ece4760.github.io/)  
 Use the development board as [RP2040-Zero](https://www.waveshare.net/wiki/RP2040-Zero).  
 - [ ] freertos 
 - [ ] multithread
@@ -271,8 +272,31 @@ int main() {
     return 0;
 }
 ```
-## hardware_irq
 ## hardware_watchdog
+```c
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/watchdog.h"
+ 
+int main() {
+    stdio_init_all();
+ 
+    watchdog_enable(5000, 0);  //啟用WDT
+    int i=1;
+    printf("WDT test\n");
+    while(1){
+        busy_wait_ms(500*i);  //延遲
+        i++;    //增加延遲
+        printf("WDT count %d us\n", watchdog_get_count()/100);
+        printf("delay %d us\n",500*i);
+        
+        watchdog_update();  //重制WDT(餵狗)
+        
+    }
+}
+```
+## hardware_irq
+
 
 # Raspberry Pi Pico SDK
 The Raspberry Pi Pico SDK (henceforth the SDK) provides the headers, libraries and build system
